@@ -3,7 +3,7 @@
   <!-- default.html -->
 <head>
 <meta charset="BIG5">
-<title>用中文寫頁籤</title>
+<title>HTML 5 layout</title>
   <style>
     body {background-color: black;}
     header {
@@ -17,8 +17,16 @@
     }
     section {background-color: aqua;}
     article {background-color: aquamarine;}
-    aside {background-color: azure;}
-    footer {background-color: beige;}
+    aside {
+      background-color: azure;
+      height: 200px;
+      width: 100PX;
+      float: left
+    }
+    footer {
+      background-color: beige;
+      clear: left
+    }
     </style>
 </head>
   <body>
@@ -26,9 +34,9 @@
     <header><h1>my header</h1></header>
     <!-- Write your nav here -->
     <nav>my nav</nav>
+    <aside>my aside </aside>
     <section>my section </section>
     <article>my article </article>
-    <aside>my aside </aside>
     <footer>my footer </footer>
   </body>
 </html>
