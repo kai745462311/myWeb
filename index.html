@@ -5,7 +5,10 @@
 <meta charset="BIG5">
 <title>HTML 5 layout</title>
   <style>
-    body {background-color: black;}
+    body {
+     background-color: black;
+     margin: 0px;
+    }
     header {
       background-color: aliceblue;
       padding: 1em;
@@ -13,11 +16,13 @@
     }
     .myContainer {
      margin: 0 auto;
-     width: 800px;
+     width: 1024px;
     }
     nav {
       background-color: antiquewhite;
-      padding: 1em;
+      height: 50px;
+      font-size: 30px;
+      padding: 5px;
     }
     section {
       background-color: aqua;
@@ -62,6 +67,7 @@
       my nav
      </div>
     </nav>
+    <div class="myContainer"> 
     <aside>my aside </aside>
     <section>my section 
       <article>my article1 </article>
@@ -69,6 +75,7 @@
       <article>my article3 </article>
       <article>my article4 </article>
     </section>
+    </div>
     <footer>
       <div class="myContainer">
       my footer 
